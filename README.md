@@ -1,2 +1,4 @@
-# DABTS
-Distance-Aware Bernoulli Thompson Sampling
+
+## Distance-Aware Bernoulli Thompson Sampling
+
+Mobile robots are becoming more commonly used to perform repetitive tasks that humans have traditionally performed. It is especially beneficial when these tasks put humans at risk of harm. One example is Hyundai deploying a quadruped robot made by Boston Dynamics to perform safety inspections at factories. In this work, we investigate the use of modeling the problem of visiting stations in a factory for safety checks as a Multi-Armed Bandit. We applied a modified Bernoulli Thompson Sampling Algorithm to determine a sequence of stations to visit that maximizes the reward of catching the most safety updates in the factory as well as minimize travel cost between stations. We introduce a parameter which is used to balance the importance maximizing safety and travel efficiency. We perform sensitivity analysis on this parameter and the number of stations to observe how this affects the balance of exploration versus exploitation in the model. 
